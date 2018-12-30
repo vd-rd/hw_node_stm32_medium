@@ -11210,6 +11210,97 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="parts-microchip" urn="urn:adsk.eagle:library:7686352">
+<packages>
+<package name="SOIC8" urn="urn:adsk.eagle:footprint:16321/1" library_version="2">
+<description>&lt;b&gt;SOIC-8&lt;/b&gt; CASE 751-07&lt;p&gt;
+Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF&lt;p&gt;
+&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt;PLATIC SMALL-OUTLINE PACKAGE&lt;br&gt;
+Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="7" x="-0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="1" x="-1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="3" x="0.635" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="4" x="1.905" y="-2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="8" x="-1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="6" x="0.635" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<smd name="5" x="1.905" y="2.75" dx="0.6" dy="1.5" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOIC8" urn="urn:adsk.eagle:package:16475/2" type="model" library_version="2">
+<description>SOIC-8 CASE 751-07
+Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF
+D (R-PDSO-G8)PLATIC SMALL-OUTLINE PACKAGE
+Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
+<packageinstances>
+<packageinstance name="SOIC8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CAN" urn="urn:adsk.eagle:symbol:7695991/1" library_version="2">
+<pin name="VDD" x="-12.7" y="5.08" length="short"/>
+<pin name="RXD" x="-12.7" y="2.54" length="short"/>
+<pin name="TXD" x="-12.7" y="0" length="short"/>
+<pin name="VSS" x="-12.7" y="-2.54" length="short"/>
+<pin name="RS" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="VREF" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="CANL" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="CANH" x="12.7" y="5.08" length="short" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP2551" urn="urn:adsk.eagle:component:7695993/1" prefix="U" uservalue="yes" library_version="2">
+<gates>
+<gate name="G$1" symbol="CAN" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOIC8">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16475/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11248,6 +11339,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="USB1" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="MICRO-USB-SMD-B-(10118193-0001LF)" device="" package3d_urn="urn:adsk.eagle:package:33144/1" value="10118193-0001LF"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="U2" library="parts-microchip" library_urn="urn:adsk.eagle:library:7686352" deviceset="MCP2551" device="" package3d_urn="urn:adsk.eagle:package:16475/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -11367,21 +11459,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="20.32" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NAV_RIGHT" class="0">
+<net name="GPIO31" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="31"/>
 <wire x1="38.1" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
 <label x="20.32" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PIN16" class="0">
+<net name="GPIO33" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="33"/>
 <wire x1="38.1" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <label x="20.32" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PIN17" class="0">
+<net name="GPIO35" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="35"/>
 <wire x1="38.1" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
@@ -11472,21 +11564,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="76.2" y="116.84" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="PIN33" class="0">
+<net name="GPIO32" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="32"/>
 <wire x1="53.34" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
 <label x="66.04" y="114.3" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="PIN34" class="0">
+<net name="GPIO34" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="34"/>
 <wire x1="53.34" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
 <label x="66.04" y="111.76" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="PIN35" class="0">
+<net name="GPIO36" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="36"/>
 <wire x1="53.34" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
@@ -11637,6 +11729,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP2" gate="G$1" x="55.88" y="63.5" rot="R90">
 <attribute name="NAME" x="54.61" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="57.15" y="64.77" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="U2" gate="G$1" x="35.56" y="25.4">
+<attribute name="NAME" x="25.4" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="33.02" y="33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11886,27 +11982,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="58.42" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDC_CLK" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PA5"/>
-<wire x1="83.82" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="58.42" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SDC_MISO" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PA6"/>
-<wire x1="83.82" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<label x="58.42" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SDC_MOSI" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PA7"/>
-<wire x1="83.82" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="58.42" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SDC_CS" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA15"/>
@@ -11989,6 +12064,130 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U1" gate="A" pin="PC11"/>
 <wire x1="144.78" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="154.94" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO36" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA4"/>
+<wire x1="83.82" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
+<label x="58.42" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDC_CLK" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB3"/>
+<wire x1="83.82" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<label x="60.96" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDC_MISO" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB4"/>
+<wire x1="83.82" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<label x="60.96" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDC_MOSI" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB5"/>
+<wire x1="83.82" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+<label x="60.96" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO35" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA5"/>
+<wire x1="83.82" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
+<label x="58.42" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO34" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA6"/>
+<wire x1="83.82" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="58.42" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO33" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA7"/>
+<wire x1="83.82" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
+<label x="58.42" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO32" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC4"/>
+<wire x1="144.78" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<label x="157.48" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO31" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC5"/>
+<wire x1="144.78" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<label x="157.48" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB0"/>
+<wire x1="83.82" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BOOT1" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB1_2"/>
+<wire x1="83.82" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+<label x="60.96" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB1"/>
+<wire x1="83.82" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BUS_GPIO0" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC9"/>
+<wire x1="144.78" y1="114.3" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
+<label x="154.94" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_GPIO3" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC6"/>
+<wire x1="144.78" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="154.94" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_GPIO2" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC7"/>
+<wire x1="144.78" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="154.94" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_GPIO1" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC8"/>
+<wire x1="144.78" y1="116.84" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
+<label x="154.94" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_CAPE_EN2" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA8"/>
+<wire x1="83.82" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+<label x="58.42" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_CAPE_EN1" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC12"/>
+<wire x1="144.78" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
+<label x="154.94" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
