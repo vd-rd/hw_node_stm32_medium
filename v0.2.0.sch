@@ -11844,6 +11844,153 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 </net>
+<net name="BUS_UART1_TXD" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA2"/>
+<wire x1="83.82" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
+<label x="58.42" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_UART1_RXD" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA3"/>
+<wire x1="83.82" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
+<label x="58.42" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_SPI_CLK" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB13"/>
+<wire x1="83.82" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<label x="58.42" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_SPI_MISO" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB14"/>
+<wire x1="83.82" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<label x="58.42" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_SPI_MOSI" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB15"/>
+<wire x1="83.82" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<label x="58.42" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_SPI_CS" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB12"/>
+<wire x1="83.82" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="58.42" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDC_CLK" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA5"/>
+<wire x1="83.82" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
+<label x="58.42" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDC_MISO" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA6"/>
+<wire x1="83.82" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="58.42" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDC_MOSI" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA7"/>
+<wire x1="83.82" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
+<label x="58.42" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDC_CS" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA15"/>
+<wire x1="83.82" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
+<label x="58.42" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_FS_ID" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA10"/>
+<wire x1="83.82" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
+<label x="58.42" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_VBUS" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA9"/>
+<wire x1="83.82" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
+<label x="58.42" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_SWD_DATA" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA13"/>
+<wire x1="83.82" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
+<label x="58.42" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_SWD_CLK" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PA14"/>
+<wire x1="83.82" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
+<label x="58.42" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_NRST" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="NRST"/>
+<wire x1="144.78" y1="152.4" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
+<label x="149.86" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_UART0_TXD" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB6"/>
+<wire x1="83.82" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<label x="58.42" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_UART0_RXD" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB7"/>
+<wire x1="83.82" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="58.42" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_I2C_SCL" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB10"/>
+<wire x1="83.82" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<label x="58.42" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_I2C_SDA" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB11"/>
+<wire x1="83.82" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<label x="58.42" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_UART2_TXD" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC10"/>
+<wire x1="144.78" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
+<label x="154.94" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_UART2_RXD" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PC11"/>
+<wire x1="144.78" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<label x="154.94" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
