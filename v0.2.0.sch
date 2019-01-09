@@ -11366,9 +11366,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="BUS" gate="G$1" x="45.72" y="132.08" rot="R180">
-<attribute name="VALUE" x="49.53" y="157.48" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="49.53" y="105.918" size="1.778" layer="95" rot="R180"/>
+<instance part="BUS" gate="G$1" x="45.72" y="129.54">
+<attribute name="VALUE" x="41.91" y="104.14" size="1.778" layer="96"/>
+<attribute name="NAME" x="41.91" y="155.702" size="1.778" layer="95"/>
 </instance>
 <instance part="CON1" gate="G$1" x="43.18" y="38.1">
 <attribute name="NAME" x="35.56" y="58.42" size="1.778" layer="95"/>
@@ -11385,211 +11385,211 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
-<label x="25.4" y="152.4" size="1.778" layer="95"/>
+<wire x1="53.34" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
+<label x="66.04" y="109.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_VEXT" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="3"/>
-<wire x1="38.1" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
-<label x="25.4" y="149.86" size="1.778" layer="95"/>
+<wire x1="53.34" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
+<label x="66.04" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_NRST" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="7"/>
-<wire x1="38.1" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
-<label x="25.4" y="144.78" size="1.778" layer="95"/>
+<wire x1="53.34" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<label x="66.04" y="116.84" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_SWD_CLK" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="9"/>
-<wire x1="38.1" y1="142.24" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
-<label x="20.32" y="142.24" size="1.778" layer="95"/>
+<wire x1="53.34" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<label x="71.12" y="119.38" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_CAPE_EN1" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="13"/>
-<wire x1="38.1" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
-<label x="17.78" y="137.16" size="1.778" layer="95"/>
+<wire x1="53.34" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="73.66" y="124.46" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_I2C_SCL" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="17"/>
-<wire x1="38.1" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="20.32" y="132.08" size="1.778" layer="95"/>
+<wire x1="53.34" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
+<label x="71.12" y="129.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_GPIO0" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="19"/>
-<wire x1="38.1" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
-<label x="20.32" y="129.54" size="1.778" layer="95"/>
+<wire x1="53.34" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
+<label x="71.12" y="132.08" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_GPIO2" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="21"/>
-<wire x1="38.1" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
-<label x="20.32" y="127" size="1.778" layer="95"/>
+<wire x1="53.34" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
+<label x="71.12" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_UART2_TXD" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="23"/>
-<wire x1="38.1" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
-<label x="17.78" y="124.46" size="1.778" layer="95"/>
+<wire x1="53.34" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="73.66" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_SPI_MOSI" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="27"/>
-<wire x1="38.1" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
-<label x="20.32" y="119.38" size="1.778" layer="95"/>
+<wire x1="53.34" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
+<label x="71.12" y="142.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_CAN_TX" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="29"/>
-<wire x1="38.1" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
-<label x="20.32" y="116.84" size="1.778" layer="95"/>
+<wire x1="53.34" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+<label x="71.12" y="144.78" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="GPIO31" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="31"/>
-<wire x1="38.1" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
-<label x="20.32" y="114.3" size="1.778" layer="95"/>
+<wire x1="53.34" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="71.12" y="147.32" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="GPIO33" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="33"/>
-<wire x1="38.1" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
-<label x="20.32" y="111.76" size="1.778" layer="95"/>
+<wire x1="53.34" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
+<label x="71.12" y="149.86" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="GPIO35" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="35"/>
-<wire x1="38.1" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
-<label x="20.32" y="109.22" size="1.778" layer="95"/>
+<wire x1="53.34" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
+<label x="71.12" y="152.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_VSYS" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
-<label x="66.04" y="152.4" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<label x="25.4" y="109.22" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_VBAT" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="4"/>
-<wire x1="53.34" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
-<label x="66.04" y="149.86" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<label x="25.4" y="111.76" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_SWD_DATA" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="8"/>
-<wire x1="53.34" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
-<label x="76.2" y="144.78" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
+<label x="15.24" y="116.84" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_SWD_EXTRA" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="10"/>
-<wire x1="53.34" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
-<label x="76.2" y="142.24" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
+<label x="15.24" y="119.38" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_CAPE_EN2" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="14"/>
-<wire x1="53.34" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
-<label x="76.2" y="137.16" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
+<label x="15.24" y="124.46" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_I2C_SDA" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="18"/>
-<wire x1="53.34" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
-<label x="76.2" y="132.08" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
+<label x="15.24" y="129.54" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_GPIO1" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="20"/>
-<wire x1="53.34" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
-<label x="76.2" y="129.54" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
+<label x="15.24" y="132.08" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_GPIO3" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="22"/>
-<wire x1="53.34" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<label x="76.2" y="127" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
+<label x="15.24" y="134.62" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_UART2_RXD" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="24"/>
-<wire x1="53.34" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
-<label x="76.2" y="124.46" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
+<label x="15.24" y="137.16" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_SPI_CLK" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="25"/>
-<wire x1="38.1" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
-<label x="20.32" y="121.92" size="1.778" layer="95"/>
+<wire x1="53.34" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<label x="71.12" y="139.7" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_SPI_MISO" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="28"/>
-<wire x1="53.34" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<label x="76.2" y="119.38" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="142.24" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
+<label x="15.24" y="142.24" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_CAN_RX" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="30"/>
-<wire x1="53.34" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<label x="76.2" y="116.84" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
+<label x="15.24" y="144.78" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO32" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="32"/>
-<wire x1="53.34" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<label x="66.04" y="114.3" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="147.32" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
+<label x="25.4" y="147.32" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO34" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="34"/>
-<wire x1="53.34" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
-<label x="66.04" y="111.76" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="149.86" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
+<label x="25.4" y="149.86" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO36" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="36"/>
-<wire x1="53.34" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
-<label x="66.04" y="109.22" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
+<label x="25.4" y="152.4" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="BUS_SPI_CS" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="26"/>
-<wire x1="53.34" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<label x="76.2" y="121.92" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="38.1" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
+<label x="15.24" y="139.7" size="1.778" layer="95" rot="R180" align="bottom-right"/>
 </segment>
 </net>
 <net name="USB_DM" class="0">
@@ -11609,29 +11609,29 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <net name="BUS_UART0_TXD" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="11"/>
-<wire x1="38.1" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
-<label x="17.78" y="139.7" size="1.778" layer="95"/>
+<wire x1="53.34" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<label x="73.66" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_UART0_RXD" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="12"/>
-<wire x1="53.34" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
-<label x="55.88" y="139.7" size="1.778" layer="95"/>
+<wire x1="38.1" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
+<label x="35.56" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_UART1_TXD" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="15"/>
-<wire x1="38.1" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
-<label x="17.78" y="134.62" size="1.778" layer="95"/>
+<wire x1="53.34" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
+<label x="73.66" y="127" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="BUS_UART1_RXD" class="0">
 <segment>
 <pinref part="BUS" gate="G$1" pin="16"/>
-<wire x1="53.34" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
-<label x="58.42" y="134.62" size="1.778" layer="95"/>
+<wire x1="38.1" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
+<label x="33.02" y="127" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
