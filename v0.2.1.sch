@@ -15590,7 +15590,6 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S3" library="parts_ck" library_urn="urn:adsk.eagle:library:7450062" deviceset="PTS840_GM_SMTR_LFS" device="" package3d_urn="urn:adsk.eagle:package:7450065/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -16583,10 +16582,6 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </instance>
 <instance part="GND13" gate="1" x="147.32" y="139.7" smashed="yes">
 <attribute name="VALUE" x="144.78" y="137.16" size="1.778" layer="96"/>
-</instance>
-<instance part="S3" gate="G$1" x="104.14" y="114.3" smashed="yes">
-<attribute name="NAME" x="99.05408125" y="122.43748125" size="1.78006875" layer="95"/>
-<attribute name="VALUE" x="99.03736875" y="104.0947" size="1.78591875" layer="96"/>
 </instance>
 </instances>
 <busses>
